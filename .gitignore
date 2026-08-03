@@ -1,0 +1,10 @@
+# Python bytecode — never publish compiled artifacts; the pitch is "read the source."
+__pycache__/
+*.pyc
+
+# Anything a learner saves while testing in this folder stays local.
+chat_*.txt
+sandbox/
+
+# Internal working files (push notes, review drafts) never publish.
+_*.md
